@@ -1,0 +1,32 @@
+*,
+*::after,
+::before {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+input,
+button {
+  font: inherit;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: 20%;
+}
+a {
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+}
