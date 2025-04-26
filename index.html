@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ 
+    <meta charset="UTF-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- 🔽 Your Info as Meta Tags -->
+    <meta name="author" content="Harshal Patil" />
+    <meta name="description" content="Simple To-Do List app created by Harshal Patil using HTML, CSS, and JavaScript." />
+    <meta name="keywords" content="To Do List, Harshal Patil, JavaScript Project, Task Manager, HTML CSS JS, Productivity" />
+
+    <title>To do list</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link id="change" class="light" rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div>
+      <div class="">
+        <div class="bg">
+          <header class="">
+            <div class="mod">
+              <div class="logo">TO DO</div>
+              <img src="imgs/light.svg" alt="" />
+            </div>
+            <div class="">
+              <form>
+                <input
+                  placeholder="Create a new todo…"
+                  id="input"
+                  type="text"
+                />
+                <button type="submit">Save</button>
+              </form>
+              <ol class="ul">
+                  <div class="cul">
+                  <span id="all">All:0</span>
+                  <span id="done">Done:0</span>
+                  <span id="doing">Doing:0</span>
+                </div>
+              </ol>
+            </div>
+          </header>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
